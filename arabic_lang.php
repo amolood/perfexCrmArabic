@@ -172,7 +172,7 @@ $lang['home_weekly_payment_records'] = 'عمليات الدفع الأسبوعي
 $lang['home_weekend_ticket_opening_statistics'] = 'إحصائيات التذاكر المفتوحة اسبوعياً';
 # Newsfeed
 $lang['whats_on_your_mind'] = 'مشاركة المستندات والأفكار ..';
-$lang['new_post'] = 'Post';
+$lang['new_post'] = 'منشور';
 $lang['newsfeed_upload_tooltip'] = 'نصيحة: قم بسحب الملفات وإفلاتها للتحميل';
 $lang['newsfeed_all_departments'] = 'جميع الإدارات';
 $lang['newsfeed_pin_post'] = 'تثبيت المنشور';
@@ -378,26 +378,26 @@ $lang['settings_no'] = 'لا';
 $lang['settings_clients_default_theme'] = 'القالب الإفتراضي';
 $lang['settings_clients_allow_registration'] = 'السماح للعملاء بالتسجيل';
 $lang['settings_clients_allow_kb_view_without_registration'] = 'السماح لقاعدة المعرفة ليتم عرضها دون تسجيل';
-$lang['settings_cron_send_overdue_reminder'] = 'Send invoice overdue reminder';
-$lang['settings_cron_send_overdue_reminder_tooltip'] = 'Send overdue email to client when invoice status updated to overdue from Cron Job';
-$lang['automatically_send_invoice_overdue_reminder_after'] = 'Auto send reminder after (days)';
-$lang['automatically_resend_invoice_overdue_reminder_after'] = 'Auto re-send reminder after (days)';
+$lang['settings_cron_send_overdue_reminder'] = 'إرسال تذكير فاتورة متأخرة';
+$lang['settings_cron_send_overdue_reminder_tooltip'] = 'أرسل بريدًا إلكترونيًا متأخرًا إلى العميل عند تحديث حالة الفاتورة المتأخرة من Cron Job';
+$lang['automatically_send_invoice_overdue_reminder_after'] = 'تذكير تلقائي للإرسال بعد (أيام)';
+$lang['automatically_resend_invoice_overdue_reminder_after'] = 'إعادة إرسال تذكير تلقائي بعد (أيام)';
 $lang['settings_email_host'] = 'SMTP Host';
 $lang['settings_email_port'] = 'SMTP Port';
-$lang['settings_email'] = 'Email';
+$lang['settings_email'] = 'البريد';
 $lang['settings_email_password'] = 'SMTP Password';
 $lang['settings_email_charset'] = 'Email Charset';
-$lang['settings_email_signature'] = 'Email Signature';
-$lang['settings_general_company_logo'] = 'Company Logo';
+$lang['settings_email_signature'] = 'توقيع البريد الإلكتروني';
+$lang['settings_general_company_logo'] = 'شعار الشركة';
 $lang['settings_general_company_logo_tooltip'] = 'Recommended dimensions: 150 x 34px';
-$lang['settings_general_company_remove_logo_tooltip'] = 'Remove company logo';
+$lang['settings_general_company_remove_logo_tooltip'] = 'إزالة شعار الشركة';
 $lang['settings_general_company_name'] = 'اسم الشركة';
-$lang['settings_general_company_main_domain'] = 'Company Main Domain';
-$lang['settings_general_use_knowledgebase'] = 'Use Knowledge Base';
-$lang['settings_general_use_knowledgebase_tooltip'] = 'If you allow this options knowledge base will be shown also on clients side';
-$lang['settings_general_tables_limit'] = 'Tables Pagination Limit';
-$lang['settings_general_default_staff_role'] = 'Default Staff Role';
-$lang['settings_general_default_staff_role_tooltip'] = 'When you add new staff member this role will be selected by default';
+$lang['settings_general_company_main_domain'] = 'المجال الرئيسي للشركة';
+$lang['settings_general_use_knowledgebase'] = 'استخدم قاعدة المعرفة';
+$lang['settings_general_use_knowledgebase_tooltip'] = 'إذا سمحت بهذه الخيارات ، فسيتم عرض قاعدة المعرفة أيضًا على جانب العملاء';
+$lang['settings_general_tables_limit'] = 'حد ترقيم الصفحات للجداول';
+$lang['settings_general_default_staff_role'] = 'الدور الافتراضي للموظفين';
+$lang['settings_general_default_staff_role_tooltip'] = 'عند إضافة موظف جديد ، سيتم تحديد هذا الدور بشكل افتراضي';
 $lang['settings_localization_date_format'] = 'صيغة الوقت';
 $lang['settings_localization_default_timezone'] = 'المنطقة الزمنية الإفتراضية';
 $lang['settings_localization_default_language'] = 'اللغة الإفتراضية';
@@ -477,9 +477,9 @@ $lang['lead_not_contacted'] = 'I have not contacted this lead';
 $lang['lead_add_edit_contacted_this_lead'] = 'I got in touch with this lead';
 
 # Misc
-$lang['access_denied'] = 'Access denied';
-$lang['prev'] = 'Prev';
-$lang['next'] = 'next';
+$lang['access_denied'] = 'تم رفض الوصول';
+$lang['prev'] = 'السابق';
+$lang['next'] = 'التالي';
 
 # Datatables
 $lang['dt_paginate_first'] = 'الأول';
@@ -522,16 +522,16 @@ $lang['als_media'] = 'الملفات';
 $lang['als_reports'] = 'التقارير';
 $lang['als_reports_sales_submenu'] = 'المبيعات';
 $lang['als_reports_leads_submenu'] = 'العملاء المحتملين';
-$lang['als_kb_articles_submenu'] = 'KB Articles';
+$lang['als_kb_articles_submenu'] = 'مقالات قاعدة المعرفة';
 $lang['als_utilities'] = 'الأدوات';
 $lang['als_announcements_submenu'] = 'الإعلانات';
 $lang['als_calendar_submenu'] = 'التقويم';
 $lang['als_activity_log_submenu'] = 'سجل النشاط';
 
 # Admin Customizer Sidebar
-$lang['acs_ticket_priority_submenu'] = 'Ticket Priority';
-$lang['acs_ticket_statuses_submenu'] = 'Ticket Statuses';
-$lang['acs_ticket_predefined_replies_submenu'] = 'Predefined Replies';
+$lang['acs_ticket_priority_submenu'] = 'اولوية التذاكر';
+$lang['acs_ticket_statuses_submenu'] = 'حالات التذاكر';
+$lang['acs_ticket_predefined_replies_submenu'] = 'الردود المحددة مسبقًا';
 $lang['acs_ticket_services_submenu'] = 'الخدمات';
 $lang['acs_departments'] = 'الإدارات';
 $lang['acs_leads'] = 'العملاء المحتملين';
@@ -571,12 +571,12 @@ $lang['ticket_dt_service'] = 'خدمة';
 $lang['ticket_dt_submitter'] = 'اتصل';
 $lang['ticket_dt_status'] = 'الحالة';
 $lang['ticket_dt_priority'] = 'الأولوية';
-$lang['ticket_dt_last_reply'] = 'Last Reply';
-$lang['ticket_single_add_reply'] = 'Add Reply';
-$lang['ticket_single_add_note'] = 'Add Note';
-$lang['ticket_single_other_user_tickets'] = 'Other Tickets';
-$lang['ticket_single_settings'] = 'Settings';
-$lang['ticket_single_priority'] = 'Priority: %s';
+$lang['ticket_dt_last_reply'] = 'آخر رد';
+$lang['ticket_single_add_reply'] = 'إضافة رد';
+$lang['ticket_single_add_note'] = 'إضافة ملحوظة';
+$lang['ticket_single_other_user_tickets'] = 'التذاكر الأخرى';
+$lang['ticket_single_settings'] = 'الإعدادات';
+$lang['ticket_single_priority'] = 'الأولوية : %s';
 $lang['ticket_single_last_reply'] = 'Last Reply: %s';
 $lang['ticket_single_ticket_note_by'] = 'Ticket note by %s';
 $lang['ticket_single_note_added'] = 'Note added: %s';
@@ -679,16 +679,16 @@ $lang['task_add_edit_due_date'] = 'Due Date';
 $lang['task_add_edit_description'] = 'Task Description';
 
 # Taxes
-$lang['new_tax'] = 'New Tax';
-$lang['taxes'] = 'Taxes';
-$lang['tax'] = 'Tax';
-$lang['tax_lowercase'] = 'tax';
-$lang['tax_dt_name'] = 'Tax Name';
-$lang['tax_dt_rate'] = 'Rate (percent)';
-$lang['tax_add_edit_name'] = 'Tax Name';
-$lang['tax_add_edit_rate'] = 'Tax Rate (percent)';
-$lang['tax_edit_title'] = 'Edit Tax';
-$lang['tax_add_title'] = 'Add New Tax';
+$lang['new_tax'] = 'ضريبة جديدة';
+$lang['taxes'] = 'الضرائب';
+$lang['tax'] = 'ضريبة';
+$lang['tax_lowercase'] = 'ضريبة';
+$lang['tax_dt_name'] = 'اسم الضريبة';
+$lang['tax_dt_rate'] = 'معدل الضريبة (نسبة مئوية)';
+$lang['tax_add_edit_name'] = 'اسم الضريبة';
+$lang['tax_add_edit_rate'] = 'معدل الضريبة (نسبة مئوية)';
+$lang['tax_edit_title'] = 'تعديل الضريبة';
+$lang['tax_add_title'] = 'إضافة ضريبة';
 
 # Ticket Statuses
 $lang['new_ticket_status'] = 'New Ticket Status';
@@ -716,18 +716,18 @@ $lang['unfinished_todos_title'] = 'Unfinished to do\'s';
 $lang['finished_todos_title'] = 'Latest finished to do\'s';
 
 # Utilities
-$lang['utility_activity_log'] = 'Activity Log';
-$lang['utility_activity_log_filter_by_date'] = 'Filter by date';
+$lang['utility_activity_log'] = 'سجل النشاط';
+$lang['utility_activity_log_filter_by_date'] = 'تصفية حسب التاريخ';
 $lang['utility_activity_log_dt_description'] = 'الوصف';
-$lang['utility_activity_log_dt_date'] = 'Date';
-$lang['utility_activity_log_dt_staff'] = 'Staff';
-$lang['utility_calendar_new_event_title'] = 'Add new event';
-$lang['utility_calendar_new_event_start_date'] = 'Start Date';
-$lang['utility_calendar_new_event_end_date'] = 'End Date';
-$lang['utility_calendar_new_event_make_public'] = 'Public Event';
-$lang['utility_calendar_event_added_successfully'] = 'New event added successfully';
-$lang['utility_calendar_event_deleted_successfully'] = 'Event deleted';
-$lang['utility_calendar_new_event_placeholder'] = 'Event title';
+$lang['utility_activity_log_dt_date'] = 'التاريخ';
+$lang['utility_activity_log_dt_staff'] = 'الموظف';
+$lang['utility_calendar_new_event_title'] = 'إضافة حدث';
+$lang['utility_calendar_new_event_start_date'] = 'تاريخ البداية';
+$lang['utility_calendar_new_event_end_date'] = 'تاريخ النهاية';
+$lang['utility_calendar_new_event_make_public'] = 'حدث جديد';
+$lang['utility_calendar_event_added_successfully'] = 'تمت إضافة الحدث بنجاح';
+$lang['utility_calendar_event_deleted_successfully'] = 'تم حذف الحدث بنجاح';
+$lang['utility_calendar_new_event_placeholder'] = 'عنوان الحدث';
 
 # Navigation
 $lang['nav_notifications'] = 'الإشعارات';
@@ -741,10 +741,10 @@ $lang['nav_notifications_tooltip'] = 'عرض الإشعارات';
 # Footer
 $lang['clients_copyright'] = 'جميع الحقوق محفوظة %s';
 # Contracts
-$lang['clients_contracts'] = 'Contracts';
-$lang['clients_contracts_dt_subject'] = 'Subject';
-$lang['clients_contracts_dt_start_date'] = 'Start Date';
-$lang['clients_contracts_dt_end_date'] = 'End Date';
+$lang['clients_contracts'] = 'العقودات';
+$lang['clients_contracts_dt_subject'] = 'العنوان';
+$lang['clients_contracts_dt_start_date'] = 'تاريخ البداية';
+$lang['clients_contracts_dt_end_date'] = 'تاريخ النهاية';
 
 # Home
 $lang['clients_quick_invoice_info'] = 'Quick Invoices Info';
@@ -884,8 +884,8 @@ $lang['payment_mode_add_edit_description'] = 'Bank Accounts / Description';
 $lang['payment_mode_add_edit_description_tooltip'] = 'You can set here bank accounts information. Will be shown on HTML Invoice';
 $lang['payment_modes_dt_description'] = 'Bank Accounts / Description';
 $lang['payment_modes_add_edit_announcement'] = 'Note: Payment modes listed below are offline modes. Payment gateways can be configured in Setup-> Settings->Payment Gateways';
-$lang['payment_mode_add_edit_active'] = 'Active';
-$lang['payment_modes_dt_active'] = 'Active';
+$lang['payment_mode_add_edit_active'] = 'نشط';
+$lang['payment_modes_dt_active'] = 'نشط';
 
 # Contracts
 $lang['contract_not_found'] = 'Contract not found. Maybe is deleted, check activity log';
@@ -894,7 +894,7 @@ $lang['contract_not_found'] = 'Contract not found. Maybe is deleted, check activ
 $lang['setting_bar_heading'] = 'إعداد';
 $lang['settings_group_online_payment_modes'] = 'Payment Gateways';
 $lang['settings_paymentmethod_mode_label'] = 'Label';
-$lang['settings_paymentmethod_active'] = 'Active';
+$lang['settings_paymentmethod_active'] = 'نشط';
 $lang['settings_paymentmethod_currencies'] = 'Currencies (coma separated)';
 $lang['settings_paymentmethod_testing_mode'] = 'Enable Test Mode';
 $lang['settings_paymentmethod_paypal_username'] = 'PayPal API Username';
@@ -1128,7 +1128,7 @@ $lang['custom_field_add_edit_order'] = 'Order';
 $lang['custom_field_dt_field_to'] = 'Belongs to';
 $lang['custom_field_dt_field_name'] = 'الاسم';
 $lang['custom_field_dt_field_type'] = 'Type';
-$lang['custom_field_add_edit_active'] = 'Active';
+$lang['custom_field_add_edit_active'] = 'نشط';
 $lang['custom_field_add_edit_disabled'] = 'Disabled';
 
 # Ticket replies
@@ -1482,7 +1482,7 @@ $lang['lead_profile'] = 'Profile';
 $lang['lead_is_client'] = 'عميل';
 $lang['leads_email_integration_folder_no_encryption'] = 'No Encryption';
 $lang['leads_email_integration'] = 'Email Integration';
-$lang['leads_email_active'] = 'Active';
+$lang['leads_email_active'] = 'نشط';
 $lang['leads_email_integration_imap'] = 'IMAP Server';
 $lang['leads_email_integration_email'] = 'Email address (Login)';
 $lang['leads_email_integration_password'] = 'Password';
@@ -2700,7 +2700,7 @@ $lang['payment_method_info'] = 'Some payment gateways support different/multiple
 $lang['dropbox_app_key'] = 'Dropbox APP Key';
 $lang['project_invoice_select_all_expenses'] = 'Select all expenses';
 $lang['role_update_staff_permissions'] = 'Update all staff members permissions that are using this role';
-$lang['customer_active'] = 'Active';
+$lang['customer_active'] = 'نشط';
 $lang['note_updated_successfully'] = 'Note updated successfully';
 $lang['update_note'] = 'Update note';
 $lang['update_comment'] = 'Update comment';
@@ -2846,7 +2846,7 @@ $lang['permission_customers_based_on_admins'] = 'Based on customer admins';
 $lang['permission_payments_based_on_invoices'] = 'Based on invoices VIEW (Own) permission';
 $lang['permission_projects_based_on_assignee'] = 'If staff member do not have permission VIEW (Global) will be shown only projects where staff member is added as project member.';
 $lang['permission_tasks_based_on_assignee'] = 'If staff member do not have permission VIEW (Global) will be shown only tasks where staff member is follower,assigned, task is public or in Setup->Settings->Tasks-> Allow all staff to see all tasks related to projects is set to YES when task is linked to project.';
-$lang['settings_paymentmethod_default_selected_on_invoice'] = 'Selected by default on invoice';
+$lang['settings_paymentmethod_default_selected_on_invoice'] = 'تعيين كإفتراضي للفواتير';
 $lang['paymentmethod_braintree_merchant_id'] = 'Merchant ID';
 $lang['paymentmethod_braintree_private_key'] = 'Private Key';
 $lang['paymentmethod_braintree_public_key'] = 'Public Key';
@@ -3412,7 +3412,7 @@ $lang['cancel_immediately'] = 'Cancel Immediately';
 $lang['cancel_at_end_of_billing_period'] = 'Cancel At The End Of Billing Period';
 $lang['view_subscription'] = 'View Subscription';
 $lang['subscription_future'] = 'Future';
-$lang['subscription_active'] = 'Active';
+$lang['subscription_active'] = 'نشط';
 $lang['subscription_past_due'] = 'Past Due';
 $lang['subscription_canceled'] = 'Canceled';
 $lang['subscription_unpaid'] = 'Unpaid';
@@ -3424,14 +3424,14 @@ $lang['subscription_is_canceled_no_resume'] = 'This subscription is canceled and
 $lang['subscription_will_be_canceled_at_end_of_billing_period'] = 'This subscription will be canceled at the end of billing period.';
 $lang['customer_successfully_subscribed_to_subscription'] = 'Thank you for subscribing to %s';
 $lang['date_subscribed'] = 'Date Subscribed';
-$lang['reports'] = 'Reports';
+$lang['reports'] = 'التقارير';
 $lang['subscriptions_summary'] = 'Subscriptions Summary';
 $lang['calendar_only_assigned_tasks'] = 'Show only tasks assigned to the logged in staff member';
 $lang['invoice_activity_subscription_payment_succeeded'] = 'Subscription Payment Succeeded, email sent to: %s';
 $lang['mail_engine'] = 'Mail Engine';
 $lang['settings_require_client_logged_in_to_view_contract'] = 'Require client to be logged in to view contract';
 $lang['privacy_policy'] = 'Privacy Policy';
-$lang['gdpr_terms_agree'] = 'I agree to the <a href="%s" target="_blank">Terms & Conditions</a>';
+$lang['gdpr_terms_agree'] = 'موافق على <a href="%s" target="_blank">شروط الخدمة</a>';
 $lang['terms_and_conditions_validation'] = 'You must accept the Terms & Conditions in order to continue.';
 $lang['gdpr'] = 'General Data Protection Regulation (GDPR)';
 $lang['data_removal_request_sent'] = 'Data removal request successfully sent';
@@ -3502,7 +3502,7 @@ $lang['contract_add_note'] = 'Add Note';
 
 # Version 2.1.1
 $lang['frequency'] = 'Frequency';
-$lang['frequency_every'] = 'Every %s';
+$lang['frequency_every'] = 'كل %s';
 $lang['last_invoice_date'] = 'تاريخ اخر فاتورة';
 $lang['next_invoice_date_list'] = 'تاريخ الفاتورة القادمة';
 $lang['enter_new_card'] = 'Enter New Card';
@@ -3801,13 +3801,17 @@ $lang['permission_delete_own_timesheets']                     = 'Delete own Time
 $lang['permission_edit_milestones']                           = 'Edit Milestones';
 $lang['permission_delete_milestones']                         = 'Delete Milestonea';
 $lang['add_timesheet'] 										  = 'Add timesheet';
-$lang['submit_button_bg_color']                               = 'Submit button background color';
-$lang['submit_button_text_color']                             = 'Submit button background text';
+$lang['submit_button_bg_color'] = 'Submit button background color';
+$lang['submit_button_text_color'] = 'Submit button background text';
 $lang['automatically_assign_ticket_to_first_staff_responding'] = 'Automatically assign the ticket to the first staff that post a reply?';
 
 # Version 2.9.1
 $lang['contract_signed_not_all_fields_editable'] = 'This contract is signed, hence not all fields can be edited until the signature is removed.';
-$lang['form_submit_success_action']              = 'What should happen after a visitor submits this form';
-$lang['form_submit_success_display_thank_you']   = 'Display thank you messsage';
+$lang['form_submit_success_action'] = 'What should happen after a visitor submits this form';
+$lang['form_submit_success_display_thank_you'] = 'Display thank you messsage';
 $lang['form_submit_success_redirect_to_website'] = 'Redirect to another website';
-$lang['form_submit_website_url']                 = 'Website URL';
+$lang['form_submit_website_url'] = 'Website URL';
+
+# Bankak
+$lang['digitalize_usd_rate'] = 'سعر الدولار';
+$lang['Bankak'] = 'بنكك';
